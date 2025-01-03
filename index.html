@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <meta name="robots" content="NOODP, nofollow, noindex" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://xepho.co.uk" />
+    <link rel="manifest" href="/mix-manifest.json?v=4" />
+    <meta name="theme-color" content="#FFF" />
+    <!-- Windows Phone -->
+    <meta name="msapplication-starturl" content="/" />
+    <meta name="msapplication-TileColor" content="#FFF" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-title" content="" />
+    <link rel="apple-touch-icon" href="https://xepho.co.uk" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <!-- Android -->
+    <link rel="icon" href="https://xepho.co.uk" />
+    <meta name="application-name" content="" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <!-- Other -->
+    <meta name="layoutmode" content="fitscreen/standard" />
+    <link rel="home" href="https://xepho.co.uk" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="" />
+
+    <meta property="og:site_name" content="https://xepho.co.uk" />
+    <meta property="og:image" content="https://xepho.co.uk" />
+    <meta name="twitter:image" content="https://xepho.co.uk" />
+    <meta property="og:locale" content="https://xepho.co.uk/en_US" />
+    <meta property="og:type" content="website" />
+
+    <title></title>
+
+    <!-- General CSS File -->
+    <link
+      rel="stylesheet"
+      href="https://xepho.co.uk/assets/default/vendors/sweetalert2/dist/sweetalert2.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://xepho.co.uk/assets/default/vendors/toast/jquery.toast.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://xepho.co.uk/assets/default/vendors/simplebar/simplebar.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://xepho.co.uk/assets/default/css/app.css"
+    />
+
+    <style>
+      :root {
+        --primary: #005459;
+        --primary-border: #dcdcdc;
+        --primary-hover: #ff7f00;
+        --primary-btn-color: #ff7f00;
+        --primary-btn-color-hover: #1c797e;
+        --secondary: #1c797e;
+        --secondary-btn-color: #1c797e;
+        --secondary-btn-color-hover: #ff7f00;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      property="stylesheet"
+      href="/_debugbar/assets/stylesheets?v=1729257312&theme=auto"
+      data-turbolinks-eval="false"
+      data-turbo-eval="false"
+    />
+    <script
+      src="/_debugbar/assets/javascript?v=1729257312"
+      data-turbolinks-eval="false"
+      data-turbo-eval="false"
+    ></script>
+    <script data-turbo-eval="false">
+      jQuery.noConflict(true);
+    </script>
+  </head>
+
+  <body class="">
+    <div id="app" class="">
+      <footer class="footer bg-secondary position-relative user-select-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="footer-subscribe d-block d-md-flex align-items-center justify-content-between"
+              >
+                <div class="flex-grow-1">
+                  <strong>Join us today</strong>
+                  <span class="d-block mt-5 text-white"
+                    >#We will send the best deals and offers to your
+                    email.</span
+                  >
+                </div>
+                <div
+                  class="subscribe-input bg-white p-10 flex-grow-1 mt-30 mt-md-0"
+                >
+                  <form action="/newsletters" method="post">
+                    <input type="hidden" name="_token" value="" />
+
+                    <div class="form-group d-flex align-items-center m-0">
+                      <div class="w-100">
+                        <input
+                          type="text"
+                          name="newsletter_email"
+                          class="form-control border-0"
+                          placeholder="Enter your email here"
+                        />
+                      </div>
+                      <button
+                        type="submit"
+                        class="btn btn-primary rounded-pill"
+                      >
+                        Join
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row m-0 justify-content-between">
+            <div class="col-6 col-md-3">
+              <span class="header d-block text-white font-weight-bold"
+                >About US</span
+              >
+
+              <div class="mt-20">
+                <p>
+                  <span style="color: rgb(255, 255, 255)"
+                    >Xepho LMS is a fully-featured learning management system
+                    that helps you to run your education business in several
+                    hours. This platform helps instructors to create
+                    professional education materials and helps students to learn
+                    from the best instructors.</span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <span class="header d-block text-white font-weight-bold"
+                >Additional Links</span
+              >
+
+              <div class="mt-20">
+                <p>
+                  <a style="color: white" href="/login">- Login</a>
+                </p>
+                <p>
+                  <a style="color: white" href="/register">- Register</a><br />
+                </p>
+                <p>
+                  <a style="color: white" href="/blog">- Blog</a>
+                </p>
+                <p>
+                  <a style="color: white" href="/contact">- Contact us</a>
+                </p>
+                <p>
+                  <a style="color: white" href="/certificate_validation"
+                    >- Certificate validation</a
+                  ><br />
+                </p>
+                <p>
+                  <a style="color: white" href="/become-instructor"
+                    >- Become instructor</a
+                  ><br />
+                </p>
+                <p>
+                  <a style="color: white" href="/pages/terms"
+                    >- Terms &amp; rules</a
+                  >
+                </p>
+                <p>
+                  <a style="color: white" href="/pages/about">- About us</a
+                  ><br />
+                </p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+              <span class="header d-block text-white font-weight-bold"
+                >Purchase Xepho LMS</span
+              >
+
+              <div class="mt-20">
+                <p>
+                  <a
+                    style="color: white"
+                    href="https://xepho.co.uk/"
+                    target="_blank"
+                    style="color: rgb(255, 255, 255); transition-property: all"
+                    >Xepho</a
+                  ><a
+                    style="color: white"
+                    title="Notnt"
+                    href="https://xepho.co.uk/"
+                    style="color: rgb(255, 255, 255); transition-property: all"
+                    ><img
+                      src="https://newtenant.xepho.co.uk/store/1/default_images/XephoLogo.png"
+                      style="margin-left: 2rem"
+                  /></a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mt-40 border-blue py-25 d-flex align-items-center justify-content-between"
+          >
+            <div class="footer-logo">
+              <a style="color: white" href="/"> </a>
+            </div>
+
+            <div class="footer-social">
+              <a
+                style="color: white"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <img
+                  src="https://xepho.co.uk/store/1/default_images/social/instagram.svg"
+                  alt="Instagram"
+                  class="mr-15"
+                />
+              </a>
+              <a
+                style="color: white"
+                href="https://web.whatsapp.com/"
+                target="_blank"
+              >
+                <img
+                  src="https://xepho.co.uk/store/1/default_images/social/whatsapp.svg"
+                  alt="Whatsapp"
+                  class="mr-15"
+                />
+              </a>
+              <a
+                style="color: white"
+                href="https://twitter.com/"
+                target="_blank"
+              >
+                <img
+                  src="https://xepho.co.uk/store/1/default_images/social/twitter.svg"
+                  alt="Twitter"
+                  class="mr-15"
+                />
+              </a>
+              <a
+                style="color: white"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <img
+                  src="https://xepho.co.uk/store/1/default_images/social/facebook.svg"
+                  alt="Facebook"
+                  class="mr-15"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-copyright-card">
+          <div
+            class="container d-flex align-items-center justify-content-between py-15"
+          >
+            <div class="font-14 text-white">
+              All rights are reserved for learning management system platform
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center"></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Template JS File -->
+    <script src="https://xepho.co.uk/assets/default/js/app.js"></script>
+    <script src="https://xepho.co.uk/assets/default/vendors/feather-icons/dist/feather.min.js"></script>
+    <script src="https://xepho.co.uk/assets/default/vendors/moment.min.js"></script>
+    <script src="https://xepho.co.uk/assets/default/vendors/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="https://xepho.co.uk/assets/default/vendors/toast/jquery.toast.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://xepho.co.uk/assets/default/vendors/simplebar/simplebar.min.js"
+    ></script>
+
+    <script>
+      var deleteAlertTitle = "Are you sure?";
+      var deleteAlertHint = "This action cannot be undone!";
+      var deleteAlertConfirm = "Delete";
+      var deleteAlertCancel = "Cancel";
+      var deleteAlertSuccess = "Success";
+      var deleteAlertFail = "Failed";
+      var deleteAlertFailHint = "Error while deleting item!";
+      var deleteAlertSuccessHint = "Item successfully deleted.";
+      var forbiddenRequestToastTitleLang = "&quot;FORBIDDEN&quot; Request";
+      var forbiddenRequestToastMsgLang = "You not access to this content.";
+    </script>
+
+    <link
+      href="https://xepho.co.uk/assets/default/vendors/flagstrap/css/flags.css"
+      rel="stylesheet"
+    />
+    <script src="https://xepho.co.uk/assets/default/vendors/flagstrap/js/jquery.flagstrap.min.js"></script>
+    <script src="https://xepho.co.uk/assets/default/js/parts/top_nav_flags.min.js"></script>
+    <script src="https://xepho.co.uk/assets/default/js/parts/navbar.min.js"></script>
+
+    <script src="https://xepho.co.uk/assets/default/js/parts/main.min.js"></script>
+
+    <script></script>
+  </body>
+</html>
